@@ -7,6 +7,8 @@
 - conda install jupyterlab
 - conda install ipykernel (为jupyter安装内核支持 确保jupyter能识别当前环境)
 - jupyter lab (启动jupyter lab)
+- 添加 E 盘的一个目录作为环境目录，并设置为最高优先级
+- conda config --prepend envs_dirs "E:\miniconda\envs"
 
 ## python中两个常用的工具函数
 - dir()
