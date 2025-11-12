@@ -6,5 +6,8 @@
 3. MSE (均方误差）
 4. visdom绘制和查看模型训练时的图
 5. 绘制3维图 可能需要使用np.meshgrid()
+6. 掌握了np.meshgrid()和np.zeros_like()的用法
+7. np.meshgrid() 假设W = [1, 2, 3]，B = [10, 20] meshgrid(W, B)会创建两个矩阵 w_mesh=[[1,2,3],[1,2,3]] b_mesh = [[10,10,10],[20,20,20]]
+
 
 ## 作业 训练出来y=x*w+b 的最佳权重
