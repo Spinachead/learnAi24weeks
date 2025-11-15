@@ -12,7 +12,7 @@
 <img width="1012" height="296" alt="image" src="https://github.com/user-attachments/assets/5e353714-155d-4e27-91cc-4c29666b3bda" />
 
 
-
+### 处理多维特征的输入
 
 
 
@@ -21,3 +21,7 @@
 2. CIRFAR10数据集 包含有10种不同的物体图像 如：airplane automobile bird cat...
 3. 饱和函数的概念 logistic函数就是饱和函数
 4. 满足sigmoid functions的条件是；  函数值有极限 如-1到1、都是增函数、 饱和函数
+
+
+### 不同的激活函数
+<img width="842" height="787" alt="image" src="https://github.com/user-attachments/assets/146ec5ef-7a97-4c99-83a3-74d3bc55c30a" />
