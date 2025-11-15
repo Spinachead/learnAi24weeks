@@ -5,7 +5,7 @@
 - 
 ### 分类问题
 > 比如识别手写数字1~9 这个就是个分类问题； 输出是那个数字的概率最高；此时就是分类问题  是让神经网络判断这个概率
-- 采用的BCE损失函数
+- 二分类采用的BCE损失函数
 - 逻辑斯蒂回归和线性模型的明显区别是在线性模型的后面，添加了激活函数(非线性变换)
 - 分布的差异：KL散度，cross-entropy交叉熵
 <img width="1107" height="201" alt="image" src="https://github.com/user-attachments/assets/da03e999-960d-4093-aca3-5116d79961cb" />
@@ -25,3 +25,24 @@
 
 ### 不同的激活函数
 <img width="842" height="787" alt="image" src="https://github.com/user-attachments/assets/146ec5ef-7a97-4c99-83a3-74d3bc55c30a" />
+
+
+### 加载数据集
+1. epoch  one forward pass and on backward pass of all the training examples
+2. batch-size the number of training examples in one forward backward pass
+3. iteration number of passes each pass using [batch size] number of examples
+
+
+### 解决多分类问题
+1. 在输出层之后要加一个softmax层 把输出转化为分布
+2. softmax层是怎样把输出的总和概率转化为1的；是怎样把输出层的概率确保大于0的
+3. crossEntropyLoss() 交叉熵损失
+
+### 第八节作业
+taitannic数据集
+
+### 第九节作业
+阅读文档 <img width="1512" height="571" alt="image" src="https://github.com/user-attachments/assets/100945a9-43cf-4eae-b17f-2a4a08cdc039" />
+
+crossEntryopyLoss()  交插商损失图解
+<img width="1775" height="495" alt="image" src="https://github.com/user-attachments/assets/e53359d1-92e5-4abe-af56-27885475e28e" />
