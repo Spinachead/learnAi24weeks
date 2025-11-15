@@ -51,3 +51,9 @@ crossEntryopyLoss()  交插商损失图解
 
 <img width="1051" height="434" alt="image" src="https://github.com/user-attachments/assets/c599fe42-4b27-42c2-9d82-33b168853bf4" />
 
+### 配置kaggle下载数据集
+1. conda activate torch_env
+2. pip install kaggle
+3. 获取kaggle的api Token; 需要登录kaggle点击个人账户 点击设置找到api部分
+4. 把下载的kaggle.json存放到C:\Users\<你的用户名>\.kaggle\kaggle.json 并且设置文件权限
+5. 运行kaggle的文件下载命令 如：kaggle competitions download -c titanic
