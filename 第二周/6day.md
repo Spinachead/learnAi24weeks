@@ -6,6 +6,8 @@
 ### 分类问题
 > 比如识别手写数字1~9 这个就是个分类问题； 输出是那个数字的概率最高；此时就是分类问题  是让神经网络判断这个概率
 - 采用的BCE损失函数
+- 逻辑斯蒂回归和线性模型的明显区别是在线性模型的后面，添加了激活函数(非线性变换)
+- 分布的差异：KL散度，cross-entropy交叉熵
 <img width="1107" height="201" alt="image" src="https://github.com/user-attachments/assets/da03e999-960d-4093-aca3-5116d79961cb" />
 <img width="1012" height="296" alt="image" src="https://github.com/user-attachments/assets/5e353714-155d-4e27-91cc-4c29666b3bda" />
 
