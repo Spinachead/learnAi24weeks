@@ -40,9 +40,14 @@
 
 ### 第八节作业
 taitannic数据集
+<img width="1033" height="450" alt="image" src="https://github.com/user-attachments/assets/e15b01e7-654a-4015-846f-307a28bb4ea4" />
+
 
 ### 第九节作业
 阅读文档 <img width="1512" height="571" alt="image" src="https://github.com/user-attachments/assets/100945a9-43cf-4eae-b17f-2a4a08cdc039" />
 
 crossEntryopyLoss()  交插商损失图解
 <img width="1775" height="495" alt="image" src="https://github.com/user-attachments/assets/e53359d1-92e5-4abe-af56-27885475e28e" />
+
+<img width="1051" height="434" alt="image" src="https://github.com/user-attachments/assets/c599fe42-4b27-42c2-9d82-33b168853bf4" />
+
