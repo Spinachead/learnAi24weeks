@@ -1,6 +1,7 @@
 ## pipeline函数的使用方法
 
-``` from transformers import pipeline
+```
+from transformers import pipeline
 
 ner = pipeline("ner",
                model="dslim/bert-base-NER",
@@ -34,4 +35,16 @@ Tokenizer（分词器）是自然语言处理（NLP）中的重要组件，它�
 5. 解码：将模型输出的数字序列还原为可读文本
 
 > 简单来说，Tokenizer 是连接人类可读文本和机器可处理数字之间的桥梁。深度学习模型无法直接处理文本字符串，必须将其转换为数字向量，这就是 Tokenizer 的核心功能。
+
+### 加载和保存模型
+1. 加载已经训练过的Transformers模型使用 from_pretrained()
+2. 保存模型使用 save_pretrained()
+```
+from transformers import BertConfig, BertModel
+config = BertConfig()
+model = BertModel(config)
+model = BertModel.from_pretrained("bert-base-cased")
+```
+
+
 
